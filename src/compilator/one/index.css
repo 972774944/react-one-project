@@ -1,0 +1,29 @@
+.rounded-box {
+  width: 8px;
+  height: 8px;
+  background-color: #000000;
+  border-radius: 10%;
+  margin: 10px;
+}
+/* index.css */
+
+.background-section {
+  background-image: url("../../rasmlar/Rectangle\ \(7\).png");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  text-align: center;
+}
+.Photos img {
+  width: calc(100%6);
+}
+ul li {
+  color: #000000;
+  font-weight: 500;
+  line-height: 27px;
+}

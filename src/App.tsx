@@ -1,24 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import {
+  Five,
+  Footer,
+  Four,
+  One,
+  Seven,
+  Six,
+  Three,
+  Two,
+} from "./compilator/one";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="flex justify-between p-4 px-10">
+        <div className="flex gap-3">
+          <h6>SHOP</h6>
+          <h6>Explore</h6>
+        </div>
+        <div>GROVEMADE</div>
+        <div>MY CART</div>
       </header>
+      <One />
+      <Two />
+      <Three />
+      <Four />
+      <Five />
+      <Six />
+      <Seven />
+      <Footer />
     </div>
   );
 }
