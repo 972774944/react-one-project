@@ -55,7 +55,7 @@ export const Two = () => {
         <p>Build your dream workspace, so you can get your best work done.</p>
       </div>
       <p className="mt-5 text-sm">GET STARTED</p>
-      <div className="flex justify-center mt-10 gap-14">
+      <div className="flex justify-center mt-10 gap-14 flex-wrap">
         <div className="py-5">
           <img className="w-full" src={Rectangle1} alt="" />
           <div className="mt-8">
@@ -86,7 +86,7 @@ export const Three = () => {
         <div className="rounded-box"></div>
         <div className="rounded-box"></div>
       </div>
-      <div className="flex justify-center gap-5">
+      <div className="flex justify-center gap-5 flex-wrap">
         <div className="py-5">
           <img className="w-full" src={Rectangle3} alt="" />
           <div className="mt-8 text-start text-[#7c7c7c]">
